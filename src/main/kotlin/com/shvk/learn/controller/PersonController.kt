@@ -20,7 +20,7 @@ class PersonController(
 
     @PostMapping("/person")
     fun savePerson(
-        @RequestBody person:Person
+        @RequestBody person: Person
     ): Person {
         return personService.savePerson(person)
     }

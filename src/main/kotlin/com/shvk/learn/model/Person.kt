@@ -1,11 +1,11 @@
 package com.shvk.learn.model
 
+import jakarta.persistence.Entity
+import jakarta.persistence.Id
+
+@Entity
 data class Person(
+    @Id
     val id: Long,
-    val name: String,
-    val address: List<Address>
-)
-data class Address(
-    val addressLine1: String,
-    val addressLine2: String
+    val name: String
 )
