@@ -1,4 +1,4 @@
-package com.shvk.learn.learn
+package com.shvk.learn
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

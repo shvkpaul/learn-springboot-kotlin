@@ -1,4 +1,4 @@
-package com.shvk.learn.learn
+package com.shvk.learn
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
