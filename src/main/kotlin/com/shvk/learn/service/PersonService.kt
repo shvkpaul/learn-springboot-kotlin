@@ -18,4 +18,8 @@ class PersonService {
             )
         )
     }
+
+    fun savePerson(person: Person): Person {
+        return person
+    }
 }
